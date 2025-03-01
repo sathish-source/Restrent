@@ -1,0 +1,21 @@
+
+.col-5{
+    display: flex;
+    width: fit-content;
+}
+#nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    border-bottom: 1px solid yellow;
+
+}
+
+.nav-links{
+    color: white ;
+}
+
+.nav-links:hover{
+    color: yellow;
+}

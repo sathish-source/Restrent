@@ -1,0 +1,66 @@
+.image-card{
+    height: 100vh;
+    background-image: url('./images/HomeBakground.jpg');
+    background-size: cover;
+    display: flex;
+    
+   
+}
+
+.image-content{
+   margin-top: 11rem;
+
+}
+.section-1{
+    margin-top: 10rem;
+}
+.img-customer{
+    width:25rem;
+    position: absolute;
+}
+
+.img-cheif{
+    width:25rem;
+    position:relative;
+    top: 22%;   
+    right: 30%; 
+}
+
+.read-about{
+    border-left: 10px solid yellow;
+
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.food-recomand{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10rem;
+    height: 70vh;
+    background-image: url('./images/Food.jpg');
+    background-size: 100% 100%;
+    filter:brightness(95%);
+}
+  
+.section-2{
+    border-bottom: 1px solid gray;
+}
+.food1-recomand{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+    height: 70vh;
+    background-image: url('./images/food1.jpg');
+    background-size: 100% 100%;
+    filter:brightness(95%);
+
+}
