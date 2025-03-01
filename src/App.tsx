@@ -1,11 +1,12 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Navbar from "./components/Navbar"
-import Home from "./components/Home"
-import About from "./components/About"
-import Contact from "./components/Contact"
-import Menu from "./components/Menu"
+// import { BrowserRouter, Route, Routes } from "react-router-dom"
+// import Navbar from "./components/Navbar"
+// import Home from "./components/Home"
+// import About from "./components/About"
+// import Contact from "./components/Contact"
+// import Menu from "./components/Menu"
 import './App.css'
-import Footer from "./components/Footer"
+import Cards from './components/Cards/Cards'
+// import Footer from "./components/Footer"
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -22,7 +23,8 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Cards/>
 
     </div>
   )
